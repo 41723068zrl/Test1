@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragment_Target"
+        android:name="cn.edu.swufe.test1.TargetFragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/fragment_Record"
+        android:name="cn.edu.swufe.test1.RecordFragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/radioTarget"
+            style="@style/rg_btn_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/app_name" />
+        <RadioButton
+            android:id="@+id/radioRecord"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            style="@style/rg_btn_style"
+            android:text="@string/app_name" />
+    </RadioGroup>
+
+</LinearLayout>

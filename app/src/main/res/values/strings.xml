@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="rdo_target_label">我的目标</string>
+    <string name="rdo_record_labe1">体重记录</string>
+
+    <string name="target_labe1">我的目标</string>
+    <string name="target_label_2">42.0 KG</string>
+    <string name="present_labe1">当前体重</string>
+    <string name="present_label_2">48.5 KG</string>
+    <string name="btn1">重设目标</string>
+    <string name="btn2">记录体重</string>
+
+    <string name="textview1">设置你的目标</string>
+    <string name="textview2">记录你的体重</string>
+
+    <string name="save">保存</string>
+</resources>
